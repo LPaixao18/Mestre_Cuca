@@ -1,16 +1,42 @@
+html {
+    background-image: url(../imagens/fundo.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.topo{
+    display: flex;
+}
+
+.footer svg{
+    width: 100%;
+}
+
+.home{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.logo {
+    width: 320px;
+    height: 30px;
+    margin:auto;
+    
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 15px;
     width: 100%;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 .card {
     aspect-ratio: 3/4;
     width: 100%;
-    /* background-color: #fff; */
+    background-color: #fff;
     border-radius: 26px;
     position: relative;
     transition: all 400ms ease;
