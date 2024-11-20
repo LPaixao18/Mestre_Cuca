@@ -10,7 +10,7 @@
 .card {
     aspect-ratio: 3/4;
     width: 100%;
-    background-color: #333;
+    /* background-color: #fff; */
     border-radius: 26px;
     position: relative;
     transition: all 400ms ease;
@@ -18,9 +18,6 @@
     border: 2px solid #F6F068;
 }
 
-.card:hover {
-    transform: rotateY(180deg);
-}
 
 .face {
     width: 100%;
@@ -28,12 +25,13 @@
     position: absolute;
     background-size: cover;
     background-position: center;
+    transition: all 400ms ease;
    
 }
 
 .front {
     background-repeat: no-repeat;
-    transform: rotateY('180deg') ;
+    transform: rotateY(180deg) ;
 }
 
 .back {
@@ -44,6 +42,12 @@
     backface-visibility: hidden;
 }
 
-.reveal-card { 
-    transform: rotateY('180deg');
+
+.reveal-card {
+    transform: rotateY(180deg);
+}
+
+.disabled-card {
+    filter: saturate(0);
+    opacity: 0.5;
 }
