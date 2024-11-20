@@ -1,27 +1,19 @@
-html {
+ html {
     background-image: url(../imagens/fundo.svg);
     background-repeat: no-repeat;
     background-size:cover;
-}
+ } 
 
-.topo{
-    display: flex;
-}
-
-.footer svg{
-    width: 100%;
+main{
+display: flex;
+flex-direction: column;
+width: 100%;
+align-items: center;
+justify-content: center;
 }
 
 .home{
-    margin-top: 10px;
-    margin-left: 20px;
-}
-
-.logo {
-    width: 320px;
-    height: 30px;
-    margin:auto;
-    
+    vertical-align: top;
 }
 
 .grid {
@@ -30,7 +22,7 @@ html {
     gap: 15px;
     width: 100%;
     max-width: 800px;
-    margin: 50px auto;
+    margin: 0 auto;
 }
 
 .card {
