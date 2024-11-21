@@ -1,8 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    border: none;
+}
+
   body {
     background: linear-gradient(to bottom, #AFDAEA, #FFFFFF);
     background-repeat: no-repeat;
     background-size: cover;
  }  
+
+ .home {
+    position: absolute;
+    top: 20px; 
+    right: 10px; 
+ }
+
+ .home img {
+    width: 40px; 
+    height: auto;
+    cursor: pointer; 
+}
 
 main{
 display: flex;
