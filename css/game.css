@@ -1,21 +1,32 @@
-  html {
-    background-image: url(../imagens/fundo.svg);
+  body {
+    background: linear-gradient(to bottom, #AFDAEA, #FFFFFF);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
  }  
 
 main{
 display: flex;
-flex-direction: column;
 width: 100%;
 align-items: center;
 justify-content: center;
-
+margin-bottom: 25px;
+margin-top: 20px;
 }
 
-.home{
-    vertical-align: top;
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 100px;
 }
+
+
+footer img{
+    max-width: 480px;
+    width: 100%;
+}
+
 
 .grid {
     display: grid;
